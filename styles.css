@@ -1,5 +1,5 @@
 .grid{
-    margin-left: 500px;
+    
     width:220px;
     height: 440px;
     background-color: bisque;
@@ -24,12 +24,13 @@
     height: 80px;
     display: flex;
     flex-wrap: wrap;
-    background-color: cadetblue;
+    
 }
 
 .minigrid>div{
     width: 20px;
-    height: 20px;;
+    height: 20px;
+    
 }
 
 .container{
