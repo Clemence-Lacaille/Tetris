@@ -1,18 +1,21 @@
+
+
 .grid{
-    
+    margin-top: 40px;
+    margin-left: 500px;
     width:220px;
     height: 440px;
  
     display: flex;
     flex-wrap: wrap;
-    border:fuchsia solid 2px;
+    border:rgb(219, 182, 219) solid 4px;
 }
 
 .grid>div{
     height:20px;
     width: 20px;
-    border: rgb(126, 159, 160) solid 0.5px;
-
+    border: white solid 0.5px;
+ 
 }
 
 
@@ -23,17 +26,22 @@
 
 .minigrid{
     margin-left: 50px;
-    width: 80px;
-    height: 80px;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 90px;
+    height: 90px;
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
-    border:rgb(126, 159, 160) solid 1px;
+    border:rgb(219, 182, 219) solid 4px;
+    margin-top: 60px;
     
 }
 
 .minigrid>div{
     width: 20px;
     height: 20px;
+    border: white solid 0.5px;
     
 }
 
@@ -43,3 +51,7 @@
 
 }
    
+#start-btn, h3{
+    margin-top: 10px;
+    margin-left: 500px;
+}
